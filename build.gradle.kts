@@ -4,3 +4,5 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.compose) apply false
 }
+
+/* TODO Made and Managed by K0d0ku*/
