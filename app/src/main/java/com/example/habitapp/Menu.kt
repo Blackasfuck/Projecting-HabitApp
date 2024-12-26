@@ -73,7 +73,6 @@ class Menu {
 
     fun getWebPages(): List<WebPage> = webPages
 }
-
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
 fun WebViewScreen(url: String) {
