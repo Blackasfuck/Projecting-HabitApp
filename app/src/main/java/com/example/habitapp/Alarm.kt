@@ -101,8 +101,6 @@ fun AlarmScreen(navController: NavHostController, context: Context = LocalContex
         }
 
         Spacer(modifier = Modifier.height(16.dp))
-
-        // Always show the Stop Alarm button
         Button(onClick = {
             // Ensure we stop the alarm sound here
             if (isAlarmPlaying) {
